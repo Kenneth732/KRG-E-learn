@@ -1,0 +1,16 @@
+.content-container {
+    width: 100%;
+    height: auto;
+    max-width: 1500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .content {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
