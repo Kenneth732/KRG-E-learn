@@ -14,3 +14,19 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .text {
+    flex: 1;
+  }
+
+  .text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .text p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
