@@ -1,0 +1,130 @@
+.Main-Container{
+    width: 100%;
+    height: fit-content;
+    padding: 0 10%;
+    background-color: #f7efef;
+}
+
+:root {
+    /* Colors
+    ___________________*/
+    --color-primary: #1c6470;
+    --color-primary-light: #2f7e8b;
+    --color-white: #fff;
+    --color-title: #242a30;
+    --color-text: #adb1b4;
+    --bg-gradient: linear-gradient(180deg, #ffffff 0%, #d6f7ff 100%);
+    /* Typography
+    ___________________*/
+    --font-family-primary: "Poppins", sans-serif;
+    --font-family-secondary: "Rubik", sans-serif;
+    /* font sizes */
+    --fs-xs: 1.2rem;
+    --fs-sm: 1.4rem;
+    --fs-md: 1.6rem;
+    --fs-lg: 1.8rem;
+    --fs-xl: 2rem;
+    --fs-xxl: clamp(2.4rem, 5vw, 2.8rem);
+    --fs-biggest: clamp(3.2rem, 5vw, 6rem);
+    /* font weight */
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+  
+    /* z-index
+    ___________________*/
+    --zindex-fixed: 1000;
+    --zindex-menu: 1010;
+  
+    /* Width & Height 
+    ------------------*/
+    --width-container: 100rem;
+    --height-header: 10rem;
+  
+    /* Transition and box shadow*/
+    --transition: 0.4s ease-in-out;
+    --shadow-primary: 0px 10px 30px 5px rgba(0, 0, 0, 0.05);
+    --shadow-header: 0px 2px 5px rgba(0, 0, 0, 0.05);
+  
+    /* Border Radius */
+    --border-radius-sm: 1rem;
+    --border-radius-lg: 2rem;
+  }
+  
+  /* CSS Reset
+  -------------------------------------------------------------*/
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-family-primary);
+    color: var(--color-title);
+    font-weight: var(--fw-bold);
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  ul,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  img,
+  video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--color-text);
+  }
+  
+  input,
+  button {
+    font: inherit;
+    outline: none;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+  }
+  
+  main {
+    overflow: hidden;
+  }
+
+
+
+
+.btn{
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    border-radius: var(--border-radius-sm);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-regular);
+    transition: var(--transition);
+}
+
