@@ -1,0 +1,21 @@
+.Courses{
+    width: 100%;
+    height: fit-content;
+    /* border: 3px solid red; */
+}
+
+.Courses-Img{
+    width: 80%;
+    border-radius: 20px;
+    margin: 0 10%;
+    /* border: 3px solid red; */
+    position: relative;
+}
+
+.Courses-Cards{
+    padding: 2% 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
