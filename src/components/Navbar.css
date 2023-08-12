@@ -1,0 +1,102 @@
+/* .Header{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+    background-color: #f7efef;
+} */
+
+
+
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: relative;
+    z-index: 100;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #3f51b5;
+    font-size: 20px;
+}
+
+.logo{
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* Add this to your existing Navbar.css file */
+
+.nav-links {
+  position: absolute;
+  top: 70px;
+  right: -150%;
+  background-color: #ffffff;
+  width: 250px; /* Adjust the width as needed */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: 0.3s;
+  transform-origin: top right;
+}
+
+.nav-links.open {
+  right: 0;
+}
+
+.nav-links li {
+  margin: 20px 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #3f51b5;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+svg{
+  font-size: 25px;
+}
+
+.nav-links a:hover {
+  background-color: #f2f2f2;
+  color: #333333;
+}
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav-links {
+      position: absolute;
+      top: 70px;
+      right: -150%;
+      background-color: #ffffff;
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      transition: 0.3s;
+    }
+  
+    .nav-links.open {
+      right: 0;
+    }
+  
+    .nav-links li {
+      margin: 20px 0;
+    }
+  }
+  
