@@ -33,3 +33,32 @@
     right: 12%;
     z-index: 1;
 }
+
+.user-box img{
+    display: block;
+    padding: 100px;
+    width: 510px;
+    margin-bottom: -40px;
+}
+
+
+
+/*  */
+
+/* Add this to your existing Header.css file */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .text-box {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+  }
+  
